@@ -1,2 +1,0 @@
-# android
-shi - android
