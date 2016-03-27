@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         int num2 =Integer.parseInt(e2.getText().toString());
         int res = num1+num2;
         result.setText(Integer.toString(res));
+
+        Toast.makeText(MainActivity.this, "Demo", Toast.LENGTH_SHORT).show();
 
     }
 
