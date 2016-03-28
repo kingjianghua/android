@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- [1] 鑑定科目 -->
+    <item
+        android:id="@+id/nav_section_accounts"
+        android:title="@string/title_accounts">
+        <menu>
+            <item
+                android:id="@+id/nav_item_open"
+                android:icon="@drawable/ic_folder_open_black_24dp"
+                android:title="@string/nav_menu_open" />
+            <item
+                android:id="@+id/nav_item_favorites"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="@string/nav_menu_favorites" />
+            <item
+                android:id="@+id/nav_item_reports"
+                android:icon="@drawable/ic_equalizer_black_24dp"
+                android:title="@string/nav_menu_reports" />
+        </menu>
+    </item>
+    <!-- [2] 取引 -->
+    <item
+        android:id="@+id/nav_section_transactions"
+        android:title="@string/title_transactions">
+        <menu>
+            <item
+                android:id="@+id/nav_item_scheduled_actions"
+                android:icon="@drawable/ic_settings_backup_restore_black_24dp"
+                android:title="@string/nav_menu_scheduled_actions" />
+            <item
+                android:id="@+id/nav_item_export"
+                android:icon="@drawable/ic_backup_black_24dp"
+                android:title="@string/nav_menu_export" />
+        </menu>
+    </item>
+    <!-- [3] Setting -->
+    <item
+        android:id="@+id/nav_item_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/nav_menu_settings" />
+
+    <!-- [4] Help -->
+    <item
+        android:id="@+id/nav_item_help"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="@string/nav_menu_help" />
+
+</menu>
